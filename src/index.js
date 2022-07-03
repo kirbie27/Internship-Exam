@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/*
+  Since I only used the template of the react npm create app
+  this part of code finds the "root" from the html and replaces it
+  with the "App"
+*/
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

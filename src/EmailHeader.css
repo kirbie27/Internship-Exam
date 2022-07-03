@@ -1,0 +1,81 @@
+* {
+    font-family: Roboto;
+}
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid rgb(228, 228, 228);
+    gap: 0.5rem;
+    min-height: 6vh;
+    position: sticky;
+    top: 1px;
+}
+
+
+
+.placeHolderButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1;
+}
+
+
+.line {
+    background-color: rgb(228, 228, 228);
+    height: 1.2rem;
+    width: 2px; 
+    margin-left: 0.3rem;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.workingButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1;
+    margin-left: 0.3rem;
+}
+
+.buttonIcon {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+.pagination {
+    color: rgb(85, 85, 85);
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    flex-grow: 2;
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+
+.pagination p {
+    line-height: 1;
+    padding: 0.2rem;
+}
+
+.pageButtons {
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.pageButtons:hover {
+    cursor: pointer;
+}

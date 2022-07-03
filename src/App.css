@@ -1,38 +1,87 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.Emails {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  padding: 0.3rem;
+  flex: 1;
+  gap: 1rem;
+}
+
+.EmailContent p{
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.mailName {
+  font-weight: 800;
+}
+
+.Mail {
+  outline: 2px solid rgb(243, 243, 244);
+  min-height: 5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  align-items: center;
+}
+
+.mailH
+
+.grip{
+  max-height: 1rem;
+}
+
+.grip:hover {
+  cursor: move;
+}
+
+.unr {
+  color: rgb(153, 153, 153);
+}
+
+.expander:hover {
+  cursor: pointer;
+}
+.SCount {
+  background-color: rgb(177, 177, 177);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  line-height: 1;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.7rem;
+  justify-content: center;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+.SCount:hover {
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }

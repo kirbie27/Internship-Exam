@@ -1,0 +1,14 @@
+.emailSubject {
+    font-weight: 800;
+    margin: 0 !important;
+    font-size: 0.9rem;
+}
+
+.emailDetails {
+    flex: 2;
+}
+.sendDetails {
+    margin: 0 !important;
+    color: rgb(155, 155, 155);
+    font-size: 0.9rem;
+}
